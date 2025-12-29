@@ -1,7 +1,9 @@
 import 'dart:convert';
 import 'dart:async';
+import 'package:boueki_eigo_word/core/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:boueki_eigo_word/core/colors.dart';
 
 // ===============================================================
 // Termモデル
@@ -179,7 +181,7 @@ class _FlashcardScreenState extends State<FlashcardScreen>
     return ListTile(
       title: Text(label),
       trailing: autoPlaySeconds == seconds
-          ? Icon(Icons.check, color: Colors.blue)
+          ? Icon(Icons.check, color: sc.ss)
           : null,
       onTap: () {
         Navigator.pop(context);
@@ -213,6 +215,7 @@ class _FlashcardScreenState extends State<FlashcardScreen>
         actions: [
           IconButton(
             icon: Icon(
+              color: Color(0xFFC0C0C0),
               isAutoPlay ? Icons.pause_circle_filled : Icons.play_circle_fill,
               size: 32,
             ),
@@ -255,11 +258,11 @@ class _FlashcardScreenState extends State<FlashcardScreen>
                   height: 380,
                   padding: EdgeInsets.all(24),
                   decoration: BoxDecoration(
-                    color: Colors.white,
+                    color: Color(0xFFFEFEFE),
                     borderRadius: BorderRadius.circular(20),
                     boxShadow: [
                       BoxShadow(
-                        color: Colors.black26,
+                        color: Color(0xFF202020),
                         blurRadius: 10,
                         offset: Offset(0, 5),
                       ),
@@ -273,6 +276,7 @@ class _FlashcardScreenState extends State<FlashcardScreen>
                         textToShow,
                         textAlign: TextAlign.center,
                         style: TextStyle(
+                          color: Color(0xFFFAFAFA),
                           fontSize: 32,
                           fontWeight: FontWeight.bold,
                         ),

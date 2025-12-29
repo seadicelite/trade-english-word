@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:math';
+import 'core/colors.dart';
 
 class OverlaySplash extends StatefulWidget {
   final Widget child;
@@ -91,7 +92,7 @@ class _OverlaySplashState extends State<OverlaySplash>
                           child: const Icon(
                             Icons.directions_boat_filled,
                             size: 70,
-                            color: Colors.white,
+                            color: sc.ss,
                           ),
                         );
                       },

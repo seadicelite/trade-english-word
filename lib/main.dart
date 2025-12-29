@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart'; // ← JSON読み込みに必要
 import 'package:boueki_eigo_word/main_navigation.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'core/colors.dart';
 
 // ------------------------------------------------------
 // ⭐ アプリ起動前に JSON を読み込む
@@ -34,11 +35,11 @@ class TradeEnglishApp extends StatelessWidget {
 
       theme: ThemeData(
         appBarTheme: const AppBarTheme(
-          color: Colors.lime,
+          color: sc.appbar,
           titleTextStyle: TextStyle(
             fontSize: 20,
             fontWeight: FontWeight.bold,
-            color: Colors.black,
+            color: sc.text,
           ),
         ),
         textTheme: GoogleFonts.notoSansJpTextTheme().copyWith(
@@ -53,7 +54,7 @@ class TradeEnglishApp extends StatelessWidget {
           labelSmall: const TextStyle(fontWeight: FontWeight.bold),
         ),
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
-        scaffoldBackgroundColor: const Color.fromARGB(255, 180, 228, 251),
+        scaffoldBackgroundColor: const Color(0xFF202020),
       ),
       home: MainNavigation(),
     );

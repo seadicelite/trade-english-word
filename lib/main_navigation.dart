@@ -31,6 +31,7 @@ class _MainNavigationState extends State<MainNavigation> {
         child: _screens[_currentIndex],
       ),
       bottomNavigationBar: BottomNavigationBar(
+        backgroundColor: Color(0xFF101010),
         currentIndex: _currentIndex,
         onTap: (index) {
           setState(() {
