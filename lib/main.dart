@@ -53,8 +53,8 @@ class TradeEnglishApp extends StatelessWidget {
           labelMedium: const TextStyle(fontWeight: FontWeight.bold),
           labelSmall: const TextStyle(fontWeight: FontWeight.bold),
         ),
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
-        scaffoldBackgroundColor: const Color(0xFF202020),
+        colorScheme: ColorScheme.fromSeed(seedColor: sc.error),
+        scaffoldBackgroundColor: sc.back,
       ),
       home: MainNavigation(),
     );

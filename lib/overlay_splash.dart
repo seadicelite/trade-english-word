@@ -92,7 +92,7 @@ class _OverlaySplashState extends State<OverlaySplash>
                           child: const Icon(
                             Icons.directions_boat_filled,
                             size: 70,
-                            color: sc.ss,
+                            color: sc.text,
                           ),
                         );
                       },

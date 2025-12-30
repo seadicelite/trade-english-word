@@ -3,7 +3,6 @@ import 'dart:async';
 import 'package:boueki_eigo_word/core/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:boueki_eigo_word/core/colors.dart';
 
 // ===============================================================
 // Termモデル
@@ -161,7 +160,11 @@ class _FlashcardScreenState extends State<FlashcardScreen>
             children: [
               Text(
                 "自動再生スピード",
-                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                style: TextStyle(
+                  color: sc.subttext,
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
               Divider(),
 
@@ -181,7 +184,7 @@ class _FlashcardScreenState extends State<FlashcardScreen>
     return ListTile(
       title: Text(label),
       trailing: autoPlaySeconds == seconds
-          ? Icon(Icons.check, color: sc.ss)
+          ? Icon(Icons.check, color: sc.icon)
           : null,
       onTap: () {
         Navigator.pop(context);
@@ -215,7 +218,7 @@ class _FlashcardScreenState extends State<FlashcardScreen>
         actions: [
           IconButton(
             icon: Icon(
-              color: Color(0xFFC0C0C0),
+              color: sc.icon,
               isAutoPlay ? Icons.pause_circle_filled : Icons.play_circle_fill,
               size: 32,
             ),
@@ -228,7 +231,11 @@ class _FlashcardScreenState extends State<FlashcardScreen>
           ),
 
           // ★ 設定アイコン
-          IconButton(icon: Icon(Icons.settings), onPressed: openSettingSheet),
+          IconButton(
+            color: sc.icon,
+            icon: Icon(Icons.settings),
+            onPressed: openSettingSheet,
+          ),
         ],
       ),
 
@@ -258,11 +265,11 @@ class _FlashcardScreenState extends State<FlashcardScreen>
                   height: 380,
                   padding: EdgeInsets.all(24),
                   decoration: BoxDecoration(
-                    color: Color(0xFFFEFEFE),
+                    color: sc.card,
                     borderRadius: BorderRadius.circular(20),
                     boxShadow: [
                       BoxShadow(
-                        color: Color(0xFF202020),
+                        color: sc.card,
                         blurRadius: 10,
                         offset: Offset(0, 5),
                       ),
@@ -276,7 +283,7 @@ class _FlashcardScreenState extends State<FlashcardScreen>
                         textToShow,
                         textAlign: TextAlign.center,
                         style: TextStyle(
-                          color: Color(0xFFFAFAFA),
+                          color: sc.text,
                           fontSize: 32,
                           fontWeight: FontWeight.bold,
                         ),

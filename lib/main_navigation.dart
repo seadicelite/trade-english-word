@@ -4,7 +4,7 @@ import 'package:boueki_eigo_word/screens/quiz_screen_jp.dart';
 import 'package:boueki_eigo_word/screens/quiz_screen.dart';
 import 'package:boueki_eigo_word/screens/flashcard_screen.dart';
 import 'package:boueki_eigo_word/screens/word_list_screen.dart';
-
+import 'core/colors.dart';
 import 'overlay_splash.dart'; // ★ 必須
 
 class MainNavigation extends StatefulWidget {
@@ -39,8 +39,8 @@ class _MainNavigationState extends State<MainNavigation> {
           });
         },
         type: BottomNavigationBarType.fixed,
-        selectedItemColor: Colors.orange,
-        unselectedItemColor: Colors.grey,
+        selectedItemColor: sc.error,
+        unselectedItemColor: sc.icon,
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: '日→英'),
           BottomNavigationBarItem(icon: Icon(Icons.quiz), label: '英→日'),

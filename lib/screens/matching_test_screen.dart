@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:boueki_eigo_word/core/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -86,7 +87,7 @@ class _MatchingTestScreenState extends State<MatchingTestScreen> {
     showModalBottomSheet(
       context: context,
       isScrollControlled: true,
-      backgroundColor: Colors.transparent,
+      backgroundColor: sc.card,
       builder: (context) {
         return DraggableScrollableSheet(
           expand: false,
@@ -95,7 +96,7 @@ class _MatchingTestScreenState extends State<MatchingTestScreen> {
           builder: (_, controller) {
             return Container(
               decoration: BoxDecoration(
-                color: Colors.white,
+                color: sc.back,
                 borderRadius: BorderRadius.vertical(top: Radius.circular(30)),
               ),
               padding: EdgeInsets.symmetric(horizontal: 20, vertical: 16),
@@ -149,11 +150,11 @@ class _MatchingTestScreenState extends State<MatchingTestScreen> {
                           margin: EdgeInsets.symmetric(vertical: 8),
                           padding: EdgeInsets.all(14),
                           decoration: BoxDecoration(
-                            color: Colors.white,
+                            color: sc.card,
                             borderRadius: BorderRadius.circular(16),
                             boxShadow: [
                               BoxShadow(
-                                color: Colors.black12,
+                                color: sc.back,
                                 blurRadius: 6,
                                 offset: Offset(0, 3),
                               ),
@@ -165,6 +166,7 @@ class _MatchingTestScreenState extends State<MatchingTestScreen> {
                               Text(
                                 q.termEn,
                                 style: TextStyle(
+                                  color: sc.text,
                                   fontSize: 20,
                                   fontWeight: FontWeight.bold,
                                 ),
@@ -242,16 +244,19 @@ class _MatchingTestScreenState extends State<MatchingTestScreen> {
   Widget build(BuildContext context) {
     if (loading) {
       return Scaffold(
-        appBar: AppBar(title: Text("ミニ試験")),
+        appBar: AppBar(
+          title: Text("ミニ試験", style: TextStyle(color: sc.text)),
+        ),
         body: Center(child: CircularProgressIndicator()),
       );
     }
 
     return Scaffold(
       appBar: AppBar(
-        title: Text("ミニ試験"),
+        title: Text("ミニ", style: TextStyle(color: sc.text)),
         actions: [
           IconButton(
+            color: sc.icon,
             icon: Icon(Icons.arrow_forward), // ★ ←ここで次の5問
             tooltip: "次の5問",
             onPressed: () {
@@ -267,6 +272,7 @@ class _MatchingTestScreenState extends State<MatchingTestScreen> {
           final q = questions[index];
 
           return Card(
+            color: sc.card,
             margin: EdgeInsets.all(10),
             child: Padding(
               padding: EdgeInsets.all(12),
@@ -275,13 +281,20 @@ class _MatchingTestScreenState extends State<MatchingTestScreen> {
                 children: [
                   Text(
                     q.termEn,
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                    style: TextStyle(
+                      color: sc.text,
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
 
                   Align(
                     alignment: Alignment.centerRight,
                     child: DropdownButton<String>(
-                      hint: Text("日本語を選択"),
+                      hint: Text(
+                        "日本語を選択",
+                        style: TextStyle(color: sc.subttext),
+                      ),
                       value: userAnswers[q.id],
                       items: options.map((jp) {
                         return DropdownMenuItem(value: jp, child: Text(jp));
@@ -302,9 +315,14 @@ class _MatchingTestScreenState extends State<MatchingTestScreen> {
 
       bottomNavigationBar: Padding(
         padding: const EdgeInsets.all(16),
+
         child: ElevatedButton(
+          style: TextButton.styleFrom(backgroundColor: sc.button),
           onPressed: checkAnswers,
-          child: Text("採点して結果を見る", style: TextStyle(fontSize: 18)),
+          child: Text(
+            "採点して結果を見る",
+            style: TextStyle(fontSize: 18, color: sc.text),
+          ),
         ),
       ),
     );

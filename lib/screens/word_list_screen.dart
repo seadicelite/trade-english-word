@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:boueki_eigo_word/core/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -72,16 +73,19 @@ class _WordListScreenState extends State<WordListScreen> {
         centerTitle: true,
         actions: [
           IconButton(
+            color: sc.icon,
             icon: Icon(Icons.visibility),
             tooltip: "全表示",
             onPressed: () => changeMode(WordViewMode.all),
           ),
           IconButton(
+            color: sc.icon,
             icon: Icon(Icons.visibility_off),
             tooltip: "日本語を隠す",
             onPressed: () => changeMode(WordViewMode.hideJp),
           ),
           IconButton(
+            color: sc.icon,
             icon: Icon(Icons.visibility_off_outlined),
             tooltip: "英語を隠す",
             onPressed: () => changeMode(WordViewMode.hideEn),
@@ -152,14 +156,10 @@ class _WordCardState extends State<WordCard> {
         padding: EdgeInsets.symmetric(vertical: 16, horizontal: 20),
         margin: EdgeInsets.symmetric(vertical: 6),
         decoration: BoxDecoration(
-          color: Colors.white,
+          color: sc.card,
           borderRadius: BorderRadius.circular(14),
           boxShadow: [
-            BoxShadow(
-              color: Colors.black12,
-              blurRadius: 3,
-              offset: Offset(0, 2),
-            ),
+            BoxShadow(color: sc.card, blurRadius: 3, offset: Offset(0, 2)),
           ],
         ),
         child: Row(
@@ -174,7 +174,7 @@ class _WordCardState extends State<WordCard> {
                   style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
-                    color: hideEn ? Colors.transparent : Colors.black,
+                    color: hideEn ? Colors.transparent : sc.text,
                   ),
                 ),
               ),
@@ -191,7 +191,7 @@ class _WordCardState extends State<WordCard> {
                   style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
-                    color: hideJp ? Colors.transparent : Colors.black87,
+                    color: hideJp ? Colors.transparent : sc.text,
                   ),
                 ),
               ),
