@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:boueki_eigo_word/core/colors.dart';
 
 class QuizQuestion {
   final int id;
@@ -155,7 +156,11 @@ class _QuizScreenState extends State<QuizScreen>
               children: [
                 Text(
                   q.question,
-                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                  style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                    color: sc.text,
+                  ),
                 ),
 
                 SizedBox(height: 20),
@@ -166,9 +171,9 @@ class _QuizScreenState extends State<QuizScreen>
 
                   Color color = Colors.white;
                   if (answered) {
-                    if (isCorrect) color = Colors.green.withOpacity(0.7);
+                    if (isCorrect) color = Colors.red.withOpacity(0.7);
                     if (isSelected && !isCorrect)
-                      color = Colors.red.withOpacity(0.7);
+                      color = Colors.green.withOpacity(0.7);
                   }
 
                   return GestureDetector(

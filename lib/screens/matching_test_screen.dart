@@ -245,7 +245,7 @@ class _MatchingTestScreenState extends State<MatchingTestScreen> {
     if (loading) {
       return Scaffold(
         appBar: AppBar(
-          title: Text("ミニ試験", style: TextStyle(color: sc.text)),
+          title: Text("ミニテスト", style: TextStyle(color: sc.text)),
         ),
         body: Center(child: CircularProgressIndicator()),
       );
@@ -253,7 +253,7 @@ class _MatchingTestScreenState extends State<MatchingTestScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text("ミニ", style: TextStyle(color: sc.text)),
+        title: Text("ミニテスト", style: TextStyle(color: sc.text)),
         actions: [
           IconButton(
             color: sc.icon,
@@ -291,10 +291,7 @@ class _MatchingTestScreenState extends State<MatchingTestScreen> {
                   Align(
                     alignment: Alignment.centerRight,
                     child: DropdownButton<String>(
-                      hint: Text(
-                        "日本語を選択",
-                        style: TextStyle(color: sc.subttext),
-                      ),
+                      hint: Text("日本語を選択", style: TextStyle(color: sc.text)),
                       value: userAnswers[q.id],
                       items: options.map((jp) {
                         return DropdownMenuItem(value: jp, child: Text(jp));
