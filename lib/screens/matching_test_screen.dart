@@ -293,6 +293,9 @@ class _MatchingTestScreenState extends State<MatchingTestScreen> {
                     child: DropdownButton<String>(
                       hint: Text("日本語を選択", style: TextStyle(color: sc.text)),
                       value: userAnswers[q.id],
+                      dropdownColor: sc.back,
+
+                      style: TextStyle(color: sc.text, fontSize: 16),
                       items: options.map((jp) {
                         return DropdownMenuItem(value: jp, child: Text(jp));
                       }).toList(),

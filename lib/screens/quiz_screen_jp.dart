@@ -172,9 +172,8 @@ class _QuizScreenState extends State<QuizJpScreen>
 
                   Color color = Colors.white;
                   if (answered) {
-                    if (isCorrect) color = Colors.red.withOpacity(0.7);
-                    if (isSelected && !isCorrect)
-                      color = Colors.blue.withOpacity(0.7);
+                    if (isCorrect) color = sc.success;
+                    if (isSelected && !isCorrect) color = sc.error;
                   }
 
                   return GestureDetector(

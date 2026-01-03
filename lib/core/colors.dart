@@ -14,7 +14,7 @@ class sc {
   static const Color card = Colors.black;
 
   // ===== Meaning Colors (使い道固定) =====
-  static const Color success = Color(0xFFEF4444); // ○ 正解
-  static const Color error = Color(0xFF4EA1FF);
-  static const Color ss = Color(0xFF22C55E); // × 不正解
+  static const Color error = Color(0xFFEF4444); // ○ 正解
+  static const Color ss = Color(0xFF4EA1FF);
+  static const Color success = Color(0xFF22C55E); // × 不正解
 }

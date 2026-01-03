@@ -1510,302 +1510,302 @@
 ,
   {
     "id": 11351,
-    "question": "“Profit” の意味は？",
-    "options": ["利益", "数量", "見積送り状", "割増料金"],
+    "question": "「利益」の意味に当たる英語はどれか？",
+    "options": ["Profit", "Quantity", "Proforma Invoice", "Surcharge"],
     "answer_index": 0
   },
   {
     "id": 11352,
-    "question": "“Proforma Invoice” の意味は？",
-    "options": ["見積送り状", "予定保険", "数量割引", "検査報告書"],
+    "question": "「見積送り状」を表す英語はどれか？",
+    "options": ["Proforma Invoice", "Provisional Insurance", "Quantity Discount", "Inspection Certificate"],
     "answer_index": 0
   },
   {
     "id": 11353,
-    "question": "“Promissory Note” の意味は？",
-    "options": ["約束手形", "見本売買", "第三者", "積込船荷証券"],
+    "question": "「約束手形」を表す英語はどれか？",
+    "options": ["Promissory Note", "Sale by Sample", "Third Party", "Shipped B/L"],
     "answer_index": 0
   },
   {
     "id": 11354,
-    "question": "“Proposal” の意味は？",
-    "options": ["提案／勧誘", "全損", "譲渡可能信用状", "本船重量条件"],
+    "question": "「提案／勧誘」の意味に当たる英語はどれか？",
+    "options": ["Proposal", "Total Loss", "Transferable L/C", "Shipped Weight Terms"],
     "answer_index": 0
   },
   {
     "id": 11355,
-    "question": "“Provisional Insurance” の意味は？",
-    "options": ["予定保険", "積込船荷証券", "数量", "本船品質条件"],
+    "question": "「予定保険」を表す英語はどれか？",
+    "options": ["Provisional Insurance", "Shipped B/L", "Quantity", "Shipped Quality Terms"],
     "answer_index": 0
   },
   {
     "id": 11356,
-    "question": "“Purchase Order” の意味は？",
-    "options": ["発注書", "海運同盟", "単価", "荷印"],
+    "question": "「発注書」を表す英語はどれか？",
+    "options": ["Purchase Order", "Shipping Conference", "Unit Price", "Shipping Mark"],
     "answer_index": 0
   },
   {
     "id": 11357,
-    "question": "“Quality” の意味は？",
-    "options": ["品質", "船積指図書", "積送不足", "予定保険"],
+    "question": "「品質」を意味する英語はどれか？",
+    "options": ["Quality", "Shipping Instructions", "Short Shipment", "Provisional Insurance"],
     "answer_index": 0
   },
   {
     "id": 11358,
-    "question": "“Quality Sample” の意味は？",
-    "options": ["品質見本", "数量割引", "譲渡可能信用状", "受領書／領収証"],
+    "question": "「品質見本」を表す英語はどれか？",
+    "options": ["Quality Sample", "Quantity Discount", "Transferable L/C", "Receipt"],
     "answer_index": 0
   },
   {
     "id": 11359,
-    "question": "“Quantity” の意味は？",
-    "options": ["数量", "本船品質条件", "第三者", "積替え"],
+    "question": "「数量」を意味する英語はどれか？",
+    "options": ["Quantity", "Shipped Quality Terms", "Third Party", "Transshipment"],
     "answer_index": 0
   },
   {
     "id": 11360,
-    "question": "“Quantity Discount” の意味は？",
-    "options": ["数量割引", "船積通知", "定価", "輸入担保荷物保管証"],
+    "question": "「数量割引」を表す英語はどれか？",
+    "options": ["Quantity Discount", "Shipping Advice", "List Price", "Import Bonded Warehouse Receipt"],
     "answer_index": 0
   },
   {
     "id": 11361,
-    "question": "“Reasonable Price” の意味は？",
-    "options": ["妥当な価格", "提案／勧誘", "積送不足", "受領書／領収証"],
+    "question": "「妥当な価格」を意味する英語はどれか？",
+    "options": ["Reasonable Price", "Proposal", "Short Shipment", "Receipt"],
     "answer_index": 0
   },
   {
     "id": 11362,
-    "question": "“Receipt” の意味は？",
-    "options": ["受領書／領収証", "数量", "提案／勧誘", "見本売買"],
+    "question": "「受領書／領収証」を表す英語はどれか？",
+    "options": ["Receipt", "Quantity", "Proposal", "Sale by Sample"],
     "answer_index": 0
   },
   {
     "id": 11363,
-    "question": "“Received B/L” の意味は？",
-    "options": ["受取船荷証券", "積替え", "約束手形", "予定保険"],
+    "question": "「受取船荷証券」を表す英語はどれか？",
+    "options": ["Received B/L", "Transshipment", "Promissory Note", "Provisional Insurance"],
     "answer_index": 0
   },
   {
     "id": 11364,
-    "question": "“Reference” の意味は？",
-    "options": ["照会／参照", "全損", "船積通知", "第三者"],
+    "question": "「照会／参照」を意味する英語はどれか？",
+    "options": ["Reference", "Total Loss", "Shipping Advice", "Third Party"],
     "answer_index": 0
   },
   {
     "id": 11365,
-    "question": "“Replacement” の意味は？",
-    "options": ["代替／交換", "荷印", "譲渡可能信用状", "積送不足"],
+    "question": "「代替／交換」を表す英語はどれか？",
+    "options": ["Replacement", "Shipping Mark", "Transferable L/C", "Short Shipment"],
     "answer_index": 0
   },
   {
     "id": 11366,
-    "question": "“Restricted L/C” の意味は？",
-    "options": ["制限付き信用状", "定価", "品質見本", "予定保険"],
+    "question": "「制限付き信用状」を表す英語はどれか？",
+    "options": ["Restricted L/C", "List Price", "Quality Sample", "Provisional Insurance"],
     "answer_index": 0
   },
   {
     "id": 11367,
-    "question": "“Revolving L/C” の意味は？",
-    "options": ["回転信用状", "受領書／領収証", "船積指図書", "本船重量条件"],
+    "question": "「回転信用状」を表す英語はどれか？",
+    "options": ["Revolving L/C", "Receipt", "Shipping Instructions", "Shipped Weight Terms"],
     "answer_index": 0
   },
   {
     "id": 11368,
-    "question": "“Sale by Grade or Type” の意味は？",
-    "options": ["規格売買", "発注書", "品質", "単価"],
+    "question": "「規格売買」を表す英語はどれか？",
+    "options": ["Sale by Grade or Type", "Purchase Order", "Quality", "Unit Price"],
     "answer_index": 0
   },
   {
     "id": 11369,
-    "question": "“Sale by Sample” の意味は？",
-    "options": ["見本売買", "予定保険", "第三者", "積替え"],
+    "question": "「見本売買」を表す英語はどれか？",
+    "options": ["Sale by Sample", "Provisional Insurance", "Third Party", "Transshipment"],
     "answer_index": 0
   },
   {
     "id": 11370,
-    "question": "“Sale by Specification” の意味は？",
-    "options": ["仕様売買", "妥当な価格", "船積指図書", "積送不足"],
+    "question": "「仕様売買」を表す英語はどれか？",
+    "options": ["Sale by Specification", "Reasonable Price", "Shipping Instructions", "Short Shipment"],
     "answer_index": 0
   },
   {
     "id": 11371,
-    "question": "“Sale by Standard” の意味は？",
-    "options": ["標準売買", "検査報告書", "数量割引", "荷印"],
+    "question": "「標準売買」を表す英語はどれか？",
+    "options": ["Sale by Standard", "Inspection Certificate", "Quantity Discount", "Shipping Mark"],
     "answer_index": 0
   },
   {
     "id": 11372,
-    "question": "“Sale by Trademark or Brand” の意味は？",
-    "options": ["商標売買", "約束手形", "積込船荷証券", "譲渡可能信用状"],
+    "question": "「商標売買」を表す英語はどれか？",
+    "options": ["Sale by Trademark or Brand", "Promissory Note", "Shipped B/L", "Transferable L/C"],
     "answer_index": 0
   },
   {
     "id": 11373,
-    "question": "“Shed Delivery” の意味は？",
-    "options": ["総揚げ", "品質見本", "数量割引", "輸入担保荷物保管証"],
+    "question": "「総揚げ」を表す英語はどれか？",
+    "options": ["Shed Delivery", "Quality Sample", "Quantity Discount", "Import Bonded Warehouse Receipt"],
     "answer_index": 0
   },
   {
     "id": 11374,
-    "question": "“Shipped B/L” の意味は？",
-    "options": ["積込船荷証券", "第三者", "提案／勧誘", "受領書／領収証"],
+    "question": "「積込船荷証券」を表す英語はどれか？",
+    "options": ["Shipped B/L", "Third Party", "Proposal", "Receipt"],
     "answer_index": 0
   },
   {
     "id": 11375,
-    "question": "“Shipped Quality Terms” の意味は？",
-    "options": ["本船品質条件", "見本売買", "全損", "数量"],
+    "question": "「本船品質条件」を表す英語はどれか？",
+    "options": ["Shipped Quality Terms", "Sale by Sample", "Total Loss", "Quantity"],
     "answer_index": 0
   },
-  {
+ {
     "id": 11376,
-    "question": "“Shipped Weight Terms” の意味は？",
-    "options": ["本船重量条件", "割増料金", "積送不足", "輸入担保荷物保管証"],
+    "question": "「本船重量条件」を表す英語はどれか？",
+    "options": ["Shipped Weight Terms", "Surcharge", "Short Shipment", "Trust Receipt"],
     "answer_index": 0
   },
   {
     "id": 11377,
-    "question": "“Shipping Advice” の意味は？",
-    "options": ["船積通知", "予定保険", "妥当な価格", "委託者／本人"],
+    "question": "「船積通知」を表す英語はどれか？",
+    "options": ["Shipping Advice", "Provisional Insurance", "Reasonable Price", "Principal"],
     "answer_index": 0
   },
   {
     "id": 11378,
-    "question": "“Shipping Conference” の意味は？",
-    "options": ["海運同盟", "商標売買", "積替え", "原料"],
+    "question": "「海運同盟」を表す英語はどれか？",
+    "options": ["Shipping Conference", "Sale by Trademark or Brand", "Transshipment", "Raw Material"],
     "answer_index": 0
   },
   {
     "id": 11379,
-    "question": "“Shipping Mark” の意味は？",
-    "options": ["荷印", "輸入担保荷物保管証", "仕様書", "数量割引"],
+    "question": "「荷印」を表す英語はどれか？",
+    "options": ["Shipping Mark", "Trust Receipt", "Specification", "Quantity Discount"],
     "answer_index": 0
   },
   {
     "id": 11380,
-    "question": "“Shipping Order (S/O)” の意味は？",
-    "options": ["船積指図書", "単価", "妥当な価格", "積替え"],
+    "question": "「船積指図書」を表す英語はどれか？",
+    "options": ["Shipping Order (S/O)", "Unit Price", "Reasonable Price", "Transshipment"],
     "answer_index": 0
   },
   {
     "id": 11381,
-    "question": "“Shipside Delivery” の意味は？",
-    "options": ["自家取り（上屋渡し）", "本船重量条件", "数量", "輸入担保荷物保管証"],
+    "question": "「自家取り（上屋渡し）」を表す英語はどれか？",
+    "options": ["Shipside Delivery", "Shipped Weight Terms", "Quantity", "Trust Receipt"],
     "answer_index": 0
   },
   {
     "id": 11382,
-    "question": "“Short Shipment” の意味は？",
-    "options": ["積送不足", "単価", "受領書／領収証", "全損"],
+    "question": "「積送不足」を表す英語はどれか？",
+    "options": ["Short Shipment", "Unit Price", "Receipt", "Total Loss"],
     "answer_index": 0
   },
   {
     "id": 11383,
-    "question": "“Specification(s)” の意味は？",
-    "options": ["仕様書", "譲渡可能信用状", "見積送り状", "規格売買"],
+    "question": "「仕様書」を表す英語はどれか？",
+    "options": ["Specification(s)", "Transferable L/C", "Proforma Invoice", "Sale by Grade or Type"],
     "answer_index": 0
   },
   {
     "id": 11384,
-    "question": "“Straight B/L” の意味は？",
-    "options": ["記名式船荷証券", "積込船荷証券", "数量", "品質見本"],
+    "question": "「記名式船荷証券」を表す英語はどれか？",
+    "options": ["Straight B/L", "Shipped B/L", "Quantity", "Quality Sample"],
     "answer_index": 0
   },
   {
     "id": 11385,
-    "question": "“Supplier” の意味は？",
-    "options": ["供給者／仕入先", "妥当な価格", "積替え", "輸入担保荷物保管証"],
+    "question": "「供給者／仕入先」を表す英語はどれか？",
+    "options": ["Supplier", "Reasonable Price", "Transshipment", "Trust Receipt"],
     "answer_index": 0
   },
   {
     "id": 11386,
-    "question": "“Surcharge” の意味は？",
-    "options": ["割増料金", "全損", "譲渡可能信用状", "規格売買"],
+    "question": "「割増料金」を表す英語はどれか？",
+    "options": ["Surcharge", "Total Loss", "Transferable L/C", "Sale by Grade or Type"],
     "answer_index": 0
   },
   {
     "id": 11387,
-    "question": "“Survey Report” の意味は？",
-    "options": ["検査報告書", "積送不足", "品質見本", "譲渡可能信用状"],
+    "question": "「検査報告書」を表す英語はどれか？",
+    "options": ["Survey Report", "Short Shipment", "Quality Sample", "Transferable L/C"],
     "answer_index": 0
   },
   {
     "id": 11388,
-    "question": "“Third Party” の意味は？",
-    "options": ["第三者", "積替え", "本船品質条件", "仕様売買"],
+    "question": "「第三者」を表す英語はどれか？",
+    "options": ["Third Party", "Transshipment", "Shipped Quality Terms", "Sale by Specification"],
     "answer_index": 0
   },
   {
     "id": 11389,
-    "question": "“Time Bill (Usance Bill)” の意味は？",
-    "options": ["期限付き為替手形", "見本売買", "保証状", "割増料金"],
+    "question": "「期限付き為替手形」を表す英語はどれか？",
+    "options": ["Time Bill (Usance Bill)", "Sale by Sample", "Letter of Guarantee", "Surcharge"],
     "answer_index": 0
   },
   {
     "id": 11390,
-    "question": "“Time Bill Buying Rate” の意味は？",
-    "options": ["期限付き手形買相場", "自家取り", "規格売買", "積替え"],
+    "question": "「期限付き手形買相場」を表す英語はどれか？",
+    "options": ["Time Bill Buying Rate", "Shipside Delivery", "Sale by Grade or Type", "Transshipment"],
     "answer_index": 0
   },
   {
     "id": 11391,
-    "question": "“Total Loss” の意味は？",
-    "options": ["全損", "積送不足", "品質見本", "供給者／仕入先"],
+    "question": "「全損」を表す英語はどれか？",
+    "options": ["Total Loss", "Short Shipment", "Quality Sample", "Supplier"],
     "answer_index": 0
   },
   {
     "id": 11392,
-    "question": "“Trade Terms” の意味は？",
-    "options": ["貿易条件", "荷印", "受領書／領収証", "積込船荷証券"],
+    "question": "「貿易条件」を表す英語はどれか？",
+    "options": ["Trade Terms", "Shipping Mark", "Receipt", "Shipped B/L"],
     "answer_index": 0
   },
   {
     "id": 11393,
-    "question": "“Tramper” の意味は？",
-    "options": ["不定期船", "譲渡可能信用状", "本船重量条件", "提案／勧誘"],
+    "question": "「不定期船」を表す英語はどれか？",
+    "options": ["Tramper", "Transferable L/C", "Shipped Weight Terms", "Proposal"],
     "answer_index": 0
   },
   {
     "id": 11394,
-    "question": "“Transferable L/C” の意味は？",
-    "options": ["譲渡可能信用状", "全損", "供給者／仕入先", "積替え"],
+    "question": "「譲渡可能信用状」を表す英語はどれか？",
+    "options": ["Transferable L/C", "Total Loss", "Supplier", "Transshipment"],
     "answer_index": 0
   },
   {
     "id": 11395,
-    "question": "“Transshipment” の意味は？",
-    "options": ["積替え", "最後の船積期限", "荷印", "規格売買"],
+    "question": "「積替え」を表す英語はどれか？",
+    "options": ["Transshipment", "Latest Shipment Date", "Shipping Mark", "Sale by Grade or Type"],
     "answer_index": 0
   },
   {
     "id": 11396,
-    "question": "“Trust Receipt (T/R)” の意味は？",
-    "options": ["輸入担保荷物保管証", "本船品質条件", "見積送り状", "総揚げ"],
+    "question": "「輸入担保荷物保管証」を表す英語はどれか？",
+    "options": ["Trust Receipt (T/R)", "Shipped Quality Terms", "Proforma Invoice", "Shed Delivery"],
     "answer_index": 0
   },
   {
     "id": 11397,
-    "question": "“T/T (Telegraphic Transfer)” の意味は？",
-    "options": ["電信送金", "検査報告書", "供給者／仕入先", "規格売買"],
+    "question": "「電信送金」を表す英語はどれか？",
+    "options": ["T/T (Telegraphic Transfer)", "Survey Report", "Supplier", "Sale by Grade or Type"],
     "answer_index": 0
   },
   {
     "id": 11398,
-    "question": "“TTB (Telegraphic Transfer Buying Rate)” の意味は？",
-    "options": ["電信買相場", "積送不足", "品質見本", "船積指図書"],
+    "question": "「電信買相場」を表す英語はどれか？",
+    "options": ["TTB (Telegraphic Transfer Buying Rate)", "Short Shipment", "Quality Sample", "Shipping Order (S/O)"],
     "answer_index": 0
   },
   {
     "id": 11399,
-    "question": "“TTS (Telegraphic Transfer Selling Rate)” の意味は？",
-    "options": ["電信売相場", "受領書／領収証", "発注書", "本船重量条件"],
+    "question": "「電信売相場」を表す英語はどれか？",
+    "options": ["TTS (Telegraphic Transfer Selling Rate)", "Receipt", "Purchase Order", "Shipped Weight Terms"],
     "answer_index": 0
   },
   {
     "id": 11400,
-    "question": "“Unit Price” の意味は？",
-    "options": ["単価", "商標売買", "予定保険", "妥当な価格"],
+    "question": "「単価」を表す英語はどれか？",
+    "options": ["Unit Price", "Sale by Trademark or Brand", "Provisional Insurance", "Reasonable Price"],
     "answer_index": 0
   }
 ,

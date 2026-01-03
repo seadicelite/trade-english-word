@@ -39,7 +39,7 @@ class _MainNavigationState extends State<MainNavigation> {
           });
         },
         type: BottomNavigationBarType.fixed,
-        selectedItemColor: sc.error,
+        selectedItemColor: sc.ss,
         unselectedItemColor: sc.icon,
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: '日→英'),
